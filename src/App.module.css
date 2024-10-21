@@ -1,0 +1,952 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.topheader{
+  height: 70px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.promiximg{
+  margin-left: 50%;
+}
+.promixtextdiv{
+  display: flex;
+  gap: 20%;
+}
+.promixtext{
+  font-size: 16px;
+  font-family: Inter;
+  color: rgba(52, 58, 64, 1);
+}
+.promixbuttondiv{
+  display: flex;
+  gap: 5%;
+  margin-right: 5%;
+}
+.loginbutton{
+  width: 90px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid rgba(45, 153, 95, 1);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginbuttontext{
+  font-size: 15px;
+  font-family: Inter;
+  color: rgba(45, 153, 95, 1);
+  font-weight: bold;
+}
+.signupbutton{
+  width: 90px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid rgba(45, 153, 95, 1);
+  background-color: rgba(45, 153, 95, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signbuttontext{
+  font-size: 15px;
+  font-family: Inter;
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+}
+.frame1{
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  z-index: -1;
+}
+.frame1content{
+  display: flex;
+  margin-left: 5%;
+}
+.seamlesstext{
+  font-size: 50px;
+  font-family: Inter;
+  font-weight: bolder;
+  width: 450px;
+}
+.softline{
+  margin-top: -3%;
+  position: absolute;
+  width: 200px;
+}
+.smallseamlesstext{
+  font-size: 16px;
+  font-family: Inter;
+  color: rgba(108, 117, 125, 1);
+  width: 500px;
+  margin-top: -5%;
+}
+.buttonandtext{
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+.startedbutton{
+  width: 150px;
+  height: 33px;
+  border-radius: 2px;
+  border: 1px solid rgba(45, 153, 95, 1);
+  background-color: rgba(45, 153, 95, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.startedbuttontext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-family: Inter;
+}
+.howitworkstext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 14px;
+  font-family: Inter;
+}
+.busandcost{
+  display: flex;
+  align-items: center;
+  gap: 25%;
+  margin-left: 7%;
+}
+.hundred{
+  color: rgba(52, 58, 64, 1);
+  font-size: 50px;
+  font-family: Inter;
+  margin-bottom: -12%;
+}
+.businesstext{
+  font-size: 18px;
+  font-family: Inter;
+  color: rgba(108, 117, 125, 1);
+}
+.manimg1{
+  margin-top: 9%;
+}
+.content1{
+  margin-top: 12%;
+}
+ 
+
+.section1{
+  display: flex;
+  margin-top: 1%;
+  margin-left: 5%;
+  gap: 18%;
+}
+.autotext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 45px;
+  font-family: Inter;
+  font-weight: bolder;
+}
+.whethertext{
+  color: rgba(108, 117, 125, 1);
+  font-size: 12px;
+  font-family: Inter;
+}
+.tryitbutton{
+  width: 100px;
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid rgba(45, 153, 95, 1);
+  background-color: rgba(45, 153, 95, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tryitbuttontext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  font-family: Inter;
+}
+.manimg2{
+  position: absolute;
+  z-index: -1;
+}
+.onman2img{
+  margin-top: 405px;
+  margin-left: -45%;
+}
+
+
+.section2{
+  margin-top: 3%;
+}
+.section2bigtext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(52, 58, 64, 1);
+  font-size: 15px;
+  font-family: Inter;
+  margin-bottom: -1.5%;
+}
+.whytext{
+  margin-bottom: -2%;
+}
+.section2smalltext{
+  color: rgba(108, 117, 125, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-family: Inter;
+}
+.youretext{
+  margin-bottom: -1%;
+}
+.box1adiv{
+  border: none;
+  width: 350px;
+  height: 240px;
+  border-radius: 15px;
+  background-color: rgba(255, 186, 8, 0.3);
+  margin-bottom: 25%;
+  
+}
+.box1img{
+  margin-top: 10%;
+}
+.pro1{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 20px;
+}
+.box1compliancetext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 18px;
+  font-family: Inter;
+  margin-left: 20px;
+}
+.box1readytext{
+  font-size: 14px;
+  font-family: Inter;
+  color: rgba(108, 117, 125, 1);
+  margin-left: 20px;
+}
+.box2adiv{
+  border: none;
+  width: 350px;
+  height: 240px;
+  border-radius: 15px;
+  background-color: rgba(172, 231, 199, 0.3);
+  margin-bottom: 8%;
+}
+.pro2{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 20px;
+}
+.box2compliancetext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 18px;
+  font-family: Inter;
+  margin-left: 20px;
+}
+.box2readytext{
+  font-size: 14px;
+  font-family: Inter;
+  color: rgba(108, 117, 125, 1);
+  margin-left: 20px;
+}
+.box2bdiv{
+  border: none;
+  width: 350px;
+  height: 240px;
+  border-radius: 15px;
+  background-color: rgba(253, 101, 132, 0.2);
+  margin-bottom: 8%;
+}
+.pro3{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 20px;
+}
+.box2cdiv{
+  border: none;
+  width: 350px;
+  height: 240px;
+  border-radius: 15px;
+  background-color: rgba(69, 122, 20, 0.25);
+}
+.pro4{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 20px;
+}
+.box3adiv{
+  border: none;
+  width: 350px;
+  height: 240px;
+  border-radius: 15px;
+  background-color: rgba(42, 83, 187, 0.25);
+  margin-bottom: 8%;
+}
+.pro5{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 20px;
+}
+.box3compliancetext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 18px;
+  font-family: Inter;
+  margin-left: 20px;
+}
+.box3readytext{
+  font-size: 14px;
+  font-family: Inter;
+  color: rgba(108, 117, 125, 1);
+  margin-left: 20px;
+}
+.box3bdiv{
+  border: none;
+  width: 350px;
+  height: 240px;
+  border-radius: 15px;
+  background-color: rgba(172, 231, 199, 0.3);
+}
+.pro6{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 20px;
+}
+.section2boxesdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+.section3textdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(52, 58, 64, 1);
+  font-size: 15px;
+  font-family: Inter;
+}
+.sect3discovertext{
+  margin-bottom: -2%;
+}
+.square1adiv{
+  background-color: rgba(249, 249, 249, 1);
+  height: 250px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.squarebigtext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 30px;
+  font-family: Inter; 
+  margin-left: 5%;
+}
+.squaresmalltext{
+  font-size: 16px;
+  font-family: Inter;
+  color: rgba(108, 117, 125, 1);
+  margin-top: -2%;
+  margin-left: 5%;
+}
+.wsquarebigtext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 30px;
+  font-family: Inter; 
+  margin-left: 5%;
+}
+.wsquaresmalltext{
+  font-size: 16px;
+  font-family: Inter;
+  color: rgba(255, 255, 255, 1);
+  margin-top: -2%;
+  margin-left: 5%;
+}
+.square1bdiv{
+  background-color: rgba(45, 153, 95, 1);
+  height: 250px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.square2adiv{
+  background-color: rgba(45, 153, 95, 1);
+  height: 250px;
+  width: 449px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.square2bdiv{
+  background-color: rgba(249, 249, 249, 1);
+  height: 250px;
+  width: 449px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.square3adiv{
+  background-color: rgba(249, 249, 249, 1);
+  height: 250px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.square3bdiv{
+  background-color: rgba(45, 153, 95, 1);
+  height: 250px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section3squarediv{
+  display: flex;
+  margin-top: 5%;
+}
+
+
+.section4bigtext{
+  color: rgba(52, 58, 64, 1);
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: bolder;
+}
+.section4smalltext{
+  color: rgba(52, 58, 64, 1);
+  font-family: Inter;
+  font-size: 17px;
+  margin-top: -2%;
+  margin-bottom: 3%;
+}
+.cube1adiv{
+  background-color: rgba(52, 58, 64, 1);
+  width: 240px;
+  height: 170px;
+}
+.circle1{
+  margin-top: 7%;
+  margin-left: 5%;
+}
+.wbigcubetext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 30px;
+  font-family: Inter;
+  margin-left: 5%;
+}
+.wsmallcubetext{
+  font-size: 12px;
+  font-family: Inter;
+  color: rgba(255, 255, 255, 1);
+  margin-top: -6%;
+  margin-left: 5%;
+}
+.cube1bdiv{
+  background-color: rgba(245, 245, 245, 1);
+  width: 240px;
+  height: 170px;
+  margin-top: 8%;
+}
+.circle3{
+  margin-top: 7%;
+  margin-left: 5%;
+}
+.bigcubetext{
+  color: rgba(108, 117, 125, 1);
+  font-size: 30px;
+  font-family: Inter;
+  margin-left: 5%;
+}
+.smallcubetext{
+  font-size: 12px;
+  font-family: Inter;
+  color: rgba(108, 117, 125, 1);
+  margin-top: -6%;
+  margin-left: 5%;
+}
+.cube1cdiv{
+  background-color: rgba(245, 245, 245, 1);
+  width: 240px;
+  height: 170px;
+  margin-top: 8%;
+}
+.circle5{
+  margin-top: 7%;
+  margin-left: 5%;
+}
+.cube2adiv{
+  background-color: rgba(245, 245, 245, 1);
+  width: 240px;
+  height: 170px;
+  
+}
+.circle2{
+  margin-top: 7%;
+  margin-left: 5%;
+}
+.cube2bdiv{
+  background-color: rgba(245, 245, 245, 1);
+  width: 240px;
+  height: 170px;
+  margin-top: 8%;
+}
+.circle4{
+  margin-top: 7%;
+  margin-left: 5%;
+}
+.cube2cdiv{
+  background-color: rgba(245, 245, 245, 1);
+  width: 240px;
+  height: 170px;
+  margin-top: 6%;
+}
+.circle6{
+  margin-top: 7%;
+  margin-left: 5%;
+}
+.section4cubesdiv{
+  display: flex;
+  gap: 5%;
+}
+.section4div{
+  display: flex;
+  gap: 15%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.phone{
+  margin-top: 15%;
+}
+
+
+.section5bigtext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 30px;
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+}
+.section5smalltext{
+  color: rgba(108, 117, 125, 1);
+  font-size: 16px;
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+}
+.freeplantext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 24px;
+  font-family: Inter;
+  margin-left: 8%;
+}
+.money{
+  color: rgba(108, 117, 125, 1);
+  font-size: 32px;
+  font-family: Inter;
+  margin-left: 8%;
+}
+.duration{
+  font-size: 16px;
+}
+.useonlytext{
+  color: rgba(108, 117, 125, 1);
+  font-size: 12px;
+  font-family: Inter;
+  margin-left: 8%;
+}
+.othertextcontainer{
+  margin-bottom: 27%;
+  margin-left: 10%;
+}
+.othertextdiv{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.othertext{
+  color: rgba(108, 117, 125, 1);
+  font-size: 14px;
+  font-family: Inter;
+}
+.box1button{
+  width: 250px;
+  height: 40px;
+  background-color: rgba(45, 153, 95, 1);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6%;
+}
+.box1buttontext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-family: Inter;
+}
+.longbox1{
+  background-color: rgba(255, 255, 255, 1);
+  width: 320px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.basicplantext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  font-family: Inter;
+  margin-left: 8%;
+}
+.wmoney{
+  color: rgba(255, 255, 255, 1);
+  font-size: 32px;
+  font-family: Inter;
+  margin-left: 8%;
+}
+.wduration{
+  font-size: 16px;
+}
+.forcommercial{
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  font-family: Inter;
+  margin-left: 8%;
+}
+.wothertextcontainer{
+  margin-left: 10%;
+}
+.wothertextdiv{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.wothertext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-family: Inter;
+}
+.box2button{
+  width: 250px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6%;
+}
+.box2buttontext{
+  color: rgba(45, 153, 95, 1);
+  font-size: 16px;
+  font-family: Inter;
+}
+.longbox2{
+  background-color: rgba(45, 153, 95, 1);
+  width: 320px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.standardplantext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 24px;
+  font-family: Inter;
+  margin-left: 8%;
+}
+.box3button{
+  width: 250px;
+  height: 40px;
+  background-color: rgba(45, 153, 95, 1);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6%;
+}
+.box3buttontext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-family: Inter;
+}
+.longbox3{
+  background-color: rgba(255, 255, 255, 1);
+  width: 320px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.longbox4{
+  background-color: rgba(255, 255, 255, 1);
+  width: 320px;
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.businessplantext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 24px;
+  font-family: Inter;
+  margin-left: 8%;
+}
+.box4othertextcontainer{
+  margin-bottom: 70%;
+  margin-left: 10%;
+}
+.box4button{
+  width: 250px;
+  height: 40px;
+  background-color: rgba(45, 153, 95, 1);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6%;
+}
+.box4buttontext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-family: Inter;
+}
+.section5longboxdiv{
+  display: flex;
+  margin-left: 5%;
+  gap: 2%;
+  margin-top: 5%;
+}
+.section5div{
+  margin-top: 5%;
+  position: absolute;
+}
+.section5body{
+  background-color: rgba(172, 231, 199, 0.1);
+  margin-top: 5%;
+  height: 830px;
+  width: 100%;
+}
+
+
+.faqtext{
+  color: rgba(52, 58, 64, 1);
+  font-size: 34px;
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+}
+.seeanswertext{
+  color: rgba(108, 117, 125, 1);
+  font-size: 16px;
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+}
+.question1button{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  gap: 65%;
+  margin-left: 12%;
+  margin-bottom: 4%;
+}
+.question1text{
+  color: rgba(108, 117, 125, 1);
+  font-size: 16px;
+  font-family: Inter;
+}
+.hshshs{
+  border: none;
+  color: rgba(52, 58, 64, 1);
+  background-color: transparent;
+}
+.question2button{
+  width: 80%;
+  margin-left: 12%;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 4%;
+}
+.question2topdiv{
+  display: flex;
+  align-items: center;
+  gap: 66%;
+}
+.question2toptext{
+  color: rgba(108, 117, 125, 1);
+  font-size: 16px;
+  font-family: Inter;
+}
+.question2downtext{
+  color: rgba(108, 117, 125, 1);
+  font-size: 16px;
+  font-family: Inter;
+  margin-left: -70%;
+}
+.question3button{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-color: transparent;
+  border: none;
+  gap: 62%;
+  margin-left: 12%;
+}
+.question3text{
+  color: rgba(108, 117, 125, 1);
+  font-size: 16px;
+  font-family: Inter;
+}
+
+
+.section7body{
+  background-color: rgba(45, 153, 95, 1);
+  width: 100%;
+  height: 350px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.section7{
+  position: absolute;
+}
+.section7toptext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 80px;
+  font-family: Inter;
+  margin-left: 150px;
+  margin-top: 2%;
+}
+.section7downtext{
+  color: rgba(255, 255, 255, 1);
+  font-size: 80px;
+  font-family: Inter;
+  margin-left: 280px;
+  margin-top: -6%;
+}
+.items{
+  display: flex;
+  align-items: center;
+  gap: 75%;
+  margin-left: 12%;
+  margin-top: -13%;
+}
+.signupnowbutton{
+  margin-left: 50%;
+  width: 150px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid rgba(45, 153, 95, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: -5%;
+}
+.signupnowtext{
+  color: rgba(45, 153, 95, 1);
+  font-size: 16px;
+  font-family: Inter;
+}
+
+
+.section8{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.section8bigtext{
+  font-family: Inter;
+  color: rgba(52, 58, 64, 1);
+}
+.section8smalltext{
+  color: rgba(108, 117, 125, 1);
+  font-size: 16px;
+  font-family: Inter;
+}
+.section8textdiv{
+  margin-top: 5%;
+}
+
+.promixtextdiv{
+  
+}
+
+@media  screen and (min-width:600px ){
+  .promixtextdiv{
+    display: none;
+    
+
+  }
+  .promixbuttondiv{
+    /* display: none; */
+  }
+
+  
+  
+
+
+
+
+
+}
+
