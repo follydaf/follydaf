@@ -1,0 +1,40 @@
+#desktopNav {
+  display: none;
+}
+
+#mobileNav {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  #desktopNav {
+    display: block;
+  }
+
+  #mobileNav {
+    display: none;
+  }
+}
+
+.hero {
+  background-image: url("/images/Frame\ 50.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.discover {
+  background-image: url("/images/Frame 91.png");
+  background-position: center;
+  background-size: contain;
+  justify-content: center;
+}
+
+input{
+  height: 30px;
+  padding: 10px;
+}
+
+input:focus {
+  border: none;   /* Removes the border when focused */
+  outline: none;  /* Removes the outline when focused */
+}
